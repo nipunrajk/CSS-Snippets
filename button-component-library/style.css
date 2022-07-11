@@ -8,6 +8,7 @@
   --initial-background-lightness: 90%;
   --background-lightness: var(--initial-background-lightness);
   --border-lightness: calc(var(--initial-background-lightness) - 20%);
+
   background-color: hsl(
     var(--background-hue),
     var(--background-saturation),
@@ -27,7 +28,7 @@
 
 .btn:hover,
 .btn:focus {
-  --background-lightness: calc(var(--initial-background-lightness) - 10%)
+  --background-lightness: calc(var(--initial-background-lightness) - 10%);
   box-shadow: 0 0 5px 0
     hsl(
       var(--background-hue),
@@ -49,7 +50,6 @@
   --initial-background-lightness: 40%;
   color: white;
 }
-
 
 .btn.btn-danger {
   --background-hue: 0;
@@ -90,3 +90,4 @@
   border-color: black;
   box-shadow: 0 0 5px 0 black;
 }
+
